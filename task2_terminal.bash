@@ -1,3 +1,19 @@
+eman@eman:~/iti/Embedded-Linux$ vi binarySearch.c
+eman@eman:~/iti/Embedded-Linux$ vim binarySearch.c
+Command 'vim' not found, but can be installed with:
+sudo apt install vim         # version 2:8.2.3995-1ubuntu2.13, or
+sudo apt install vim-tiny    # version 2:8.2.3995-1ubuntu2.13
+sudo apt install vim-athena  # version 2:8.2.3995-1ubuntu2.13
+sudo apt install vim-gtk3    # version 2:8.2.3995-1ubuntu2.13
+sudo apt install vim-nox     # version 2:8.2.3995-1ubuntu2.13
+sudo apt install neovim      # version 0.6.1-3
+eman@eman:~/iti/Embedded-Linux$ cal binarySearch.c
+Command 'cal' not found, but can be installed with:
+sudo apt install ncal
+eman@eman:~/iti/Embedded-Linux$ sudo cal binarySearch.c
+[sudo] password for eman: 
+sudo: cal: command not found
+eman@eman:~/iti/Embedded-Linux$ cat binarySearch.c
 #include <stdio.h>  
 int binarySearch(int a[], int beg, int end, int val);
 int main() {  
@@ -36,4 +52,6 @@ int binarySearch(int a[], int beg, int end, int val)
         }          
     }    
     return -1;     
-}   
+} 
+eman@eman:~/iti/Embedded-Linux$ gcc -c binarySearch.c -o binarySearch.exe
+
