@@ -1,14 +1,14 @@
 # Embedded-Linux
 
-<h1>adding new user</h1>
+<h3>adding new user</h3>
 sudo adduser "$username"
 
-<h1>to print user information :</h1> id "$username"	
+<h3>to print user information :</h3> id "$username"	
 
-<h1>adding new ugroup</h1>
+<h3>adding new ugroup</h3>
 sudo groupadd "$groupname"
 
-<h1>to print group information :</h1> getent group "$groupname"
+<h3>to print group information :</h3> getent group "$groupname"
 
-<h1>to add a user to a group</h1>
+<h3>to add a user to a group</h3>
 sudo usermod -aG "$groupname" "$username"
