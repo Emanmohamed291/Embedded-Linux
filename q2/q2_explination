@@ -1,2 +1,0 @@
-binarySearch.exe can be run or accessed just from the path which it put in by "cd path"
-but by using "sudo cp  /usr/local/bin/binarySearch.exe q1/binarySearch.exe" and put binarySearch.exe into env var so it can be accessed from anywhere.

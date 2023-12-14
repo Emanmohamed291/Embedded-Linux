@@ -1,0 +1,19 @@
+#!/bin/bash
+username="eman_n"
+groupname="mohamed"
+
+if (id "$username" &>/div/null);then
+	echo "user $username exists."
+else
+	sudo adduser "$username"
+	id "$username"	
+fi
+
+if (grep -q "$groupname" /etc/group);then
+	echo "group $groupname exists."
+else
+	sudo groupadd "$groupname"
+	getent group "$groupname"
+fi
+sudo usermod -aG "$groupname" "$username"
+id "$username"
