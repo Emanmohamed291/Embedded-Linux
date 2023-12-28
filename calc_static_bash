@@ -1,0 +1,12 @@
+#!/bin/bash
+cd LIB
+~/x-tools/avr/bin/avr-gcc  -c -Wall *.c
+~/x-tools/avr/bin/avr-ar -rcs liboperation.a *.o
+echo "Lib is ------> "
+ls | grep lib
+echo "deps are ------>"
+ar t liboperation.a
+cd ../
+~/x-tools/avr/bin/avr-gcc  -static main.c -o main.elf -l operation -L ./LIB -I ./INCLUDE
+
+
