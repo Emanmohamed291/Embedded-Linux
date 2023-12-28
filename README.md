@@ -20,7 +20,7 @@ to make shared library with lib before its name and .so as an extension.
  ```cd
 ar t liboperation.a
 ```
-to link static main.c with .h files in INCLUDE directory & library "operations" & .c in LIB directory and make exe file called Calc.
+to link static main.c with .h files in INCLUDE directory & library "operations" & .c in LIB directory and make exe file called main.elf.
 ```cd
 ~/x-tools/avr/bin/avr-gcc  -static main.c -o main.elf -l operation -L ./LIB -I ./INCLUDE
 ```
