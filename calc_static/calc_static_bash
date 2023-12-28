@@ -1,0 +1,13 @@
+#!/bin/bash
+cd LIB
+gcc -c -Wall *.c
+ar -rcs liboperation.a *.o
+echo "Lib is ------> "
+ls | grep lib
+echo "deps are ------>"
+ar t liboperation.a
+cd ../
+gcc -static main.c -o Calc -l operation -L ./LIB -I ./INCLUDE
+echo " "
+./Calc
+
