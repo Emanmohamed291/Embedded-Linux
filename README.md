@@ -1,7 +1,7 @@
 # Embedded-Linux
 This is static and dynamic libraries with `bashscript` for each of them to do that.
 
-##for Static Library:
+## for Static Library:
 
 get into directory "LIB".
 ```cd
@@ -27,7 +27,7 @@ to run that exe file.
 ```cd
 ./Calc
 ```
-##for Dynamic Library:
+## for Dynamic Library:
 
 get into directory "LIB".
 ```cd
