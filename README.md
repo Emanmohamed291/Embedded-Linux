@@ -1,6 +1,7 @@
 # Embedded-Linux
 ### This is static avr gcc with `bashscript` to make .elf file.
-![1st_task_iti - ISIS Professional (Animating) 12_28_2023 10_19_55 PM](https://github.com/Emanmohamed291/Embedded-Linux/assets/109046357/b2a89be5-4b73-45cb-b37c-2af8645256f7)
+
+![1st_task_iti - ISIS Professional (Animating) 12_28_2023 10_19_55 PM](https://github.com/Emanmohamed291/Embedded-Linux/assets/109046357/3ef59f14-2a16-45e1-b16a-8d92486a5aa2)
 
 ### for Static Library:
 
