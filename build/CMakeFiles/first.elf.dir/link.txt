@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/first.elf.dir/main.c.o CMakeFiles/first.elf.dir/SCR/add.c.o CMakeFiles/first.elf.dir/SCR/sub.c.o CMakeFiles/first.elf.dir/SCR/div.c.o CMakeFiles/first.elf.dir/SCR/mult.c.o -o first.elf  -Wl,-rpath,/home/eman/iti/calc_Cmake/build/SCR SCR/liboperation.so 
