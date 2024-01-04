@@ -1,0 +1,6 @@
+/home/eman/iti/calc_Cmake/build/CMakeFiles/first.elf.dir
+/home/eman/iti/calc_Cmake/build/CMakeFiles/edit_cache.dir
+/home/eman/iti/calc_Cmake/build/CMakeFiles/rebuild_cache.dir
+/home/eman/iti/calc_Cmake/build/SCR/CMakeFiles/operation.dir
+/home/eman/iti/calc_Cmake/build/SCR/CMakeFiles/edit_cache.dir
+/home/eman/iti/calc_Cmake/build/SCR/CMakeFiles/rebuild_cache.dir
