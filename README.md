@@ -22,9 +22,9 @@ sudo cfdisk sd.img
 ```c
 sudo losetup -f --show --partscan sd.img
 ```
-for example:
-![3](https://github.com/Emanmohamed291/Embedded-Linux/assets/109046357/03a508f6-8b2d-45c8-84d1-99ae04f37fc4)
-save direction into DISK
+- for example:
+- ![3](https://github.com/Emanmohamed291/Embedded-Linux/assets/109046357/03a508f6-8b2d-45c8-84d1-99ae04f37fc4)
+- save direction into DISK
 ```c
 export DISK=/dev/loop14
 ```
@@ -33,6 +33,7 @@ export DISK=/dev/loop14
 sudo mkfs.vfat -F 16 -n boot ${DISK}p1
 ```
 for example:
+
 ![5](https://github.com/Emanmohamed291/Embedded-Linux/assets/109046357/3a2caf56-1ccd-4d59-bdbd-9a519b0c6093)
 ### to make ext4 as rootfs in /dev/loop<x>P2.
 ```c
@@ -41,7 +42,7 @@ sudo mkfs.ext4 -L rootfs ${DISK}p2
 for example:
 ![6](https://github.com/Emanmohamed291/Embedded-Linux/assets/109046357/bda8708e-184c-4a9c-aa4d-6a38d56cd657)
 
-#`Finally`
+# `Finally`
 ![7](https://github.com/Emanmohamed291/Embedded-Linux/assets/109046357/65b1c94b-4ebc-448e-9300-a55ac3918985)
 ![final](https://github.com/Emanmohamed291/Embedded-Linux/assets/109046357/b7949a61-e9b9-46de-9ee6-a9683c16e178)
 
