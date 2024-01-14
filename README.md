@@ -1,6 +1,6 @@
 # Task_EmbeddedLinux_8
 - we need `TFTP` to load kernal and zimage by tftp instead of SD-card, but u-boot need SD-card, so we won't pass SD-card up.
-  
+  #
   - ### install `tftp` package.
     
     ```c
@@ -27,5 +27,12 @@
         ```c
         cd srv/tftp
         sudo chown tftp:tftp tftp
-        ```      
-  - 
+        ```
+     - we need to make 2 files `zimage` and `hardware.dtp`.
+
+        ```c
+        sudo vi zimage
+        sudo vi hardware.dtp
+        ```
+        #       
+  - we need now in `u-boot` to make `qemu-ifup`
