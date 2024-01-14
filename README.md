@@ -34,7 +34,7 @@
           sudo vi zimage
           sudo vi hardware.dtp
           ```
-        #       
+      #       
   - we need now in `u-boot` to make `qemu-ifup`
       ```c
       vi qemu-ifup
@@ -51,4 +51,40 @@
        ```c
       chmod +x qemu-ifup
       ```
-- ## go to qemu to make the connection between server "my_PC" and client/ target "beaglebone" virtually      
+- #### go to qemu to make the connection between server "my_PC" and client/ target "beaglebone" virtually
+  ```v   
+  sudo qemu-system-arm -M vexpress-a9 -m 128M -nographic -kernel u-boot -sd sd.img -net tap,script=./qemu-ifup -net nic
+  ```
+  - to set ip addresses for server and target.
+  
+    ```m
+    setenv serverip=192.168.15.87
+    setenv sipaddr=192.168.15.88
+    saveenv
+    ```
+    to know DRAM bank start address use `bdinfo` 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
